@@ -1,0 +1,24 @@
+.contactList {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  list-style-type: disc;
+}
+.contactItem {
+  display: flex;
+  gap: 10px;
+  /* margin-top: 15px; */
+  align-items: center;
+  justify-content: space-between;
+}
+.itemName {
+  font-weight: 500;
+}
+.contactText {
+  font-weight: 500;
+  font-size: 20px;
+}
+.contactBtn {
+  width: 100px;
+  height: 20px;
+}
